@@ -1,0 +1,39 @@
+# AWC Wildlife Detection & Classification Configuration
+# =====================================================
+# This file contains settings for running the inference pipeline.
+# Adjust paths and thresholds according to your setup.
+
+
+# REQUIRED SETTINGS
+# Path to the MegaDetector model weights file (.pt)
+detector_path: "models/md_v1000.0.0-redwood.pt"
+
+# Path to the species classifier model weights file (.pth)
+classifier_path: "models/awc-135-v1.pth"
+
+# Path to the labels file (text file with one species name per line)
+label_path: "labels.txt"
+
+# OPTIONAL SETTINGS - These have sensible defaults
+# Output file name (without extension). Creates both .csv and .json files.
+# Can also be a full path like "results/my_output"
+output_name: "results"
+
+# Detection confidence threshold (0.0 to 1.0)
+# Lower = more detections but potentially more false positives
+# Recommended: 0.1 to 0.2
+detection_threshold: 0.1
+
+# Classification confidence threshold (0.0 to 1.0)  
+# Only predictions above this threshold will be included in results
+# Recommended: 0.5
+classification_threshold: 0.5
+
+# Number of top predictions to return per detection
+# Use 1 for just the best prediction, or higher to see alternatives
+topn: 1
+
+# Batch size for classification (number of crops processed at once)
+# Higher = faster processing but uses more GPU memory
+# Reduce if you get out-of-memory errors
+classification_batch_size: 4

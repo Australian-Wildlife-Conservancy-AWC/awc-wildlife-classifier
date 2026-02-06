@@ -1,0 +1,135 @@
+﻿Acanthagenys rufogularis | Spiny-cheeked Honeyeater
+Aepyprymnus rufescens | Rufus Bettong
+Agamidae sp | Dragon sp
+Alectura lathami | Australian Brush-turkey
+Amphibia sp | Frog sp
+Antechinus flavipes | Yellow-footed Antechinus
+Antechinus minimus | Swamp Antechinus
+Ardeotis australis | Australian Bustard
+Aves | Diurnal Raptor sp
+Aves | Duck sp
+Aves | Finch sp
+Aves | Honeyeater sp
+Aves | Nocturnal Predatory Bird sp
+Aves | Quail sp
+Aves | Small Bird sp
+Aves | Wetland Bird sp
+Aves | Wren sp
+Bettongia lesueur | Burrowing Bettong
+Bettongia penicillata ogilbyi | Brush-tailed Bettong
+Bettongia tropica | Northern Bettong
+Bos taurus | Cattle
+Bubalus bubalis | Swamp Buffalo
+Burhinus grallarius | Bush Stone-curlew
+Canis familiaris (dingo) | Dingo
+Capra hircus | Goat
+Centropus phasianinus | Pheasant Coucal
+Cercartetus sp | Pygmy Possum sp
+Cervidae  sp | Deer sp
+Chalcophaps longirostris | Brown-capped Emerald-Dove
+Chlamydera nuchalis | Great Bowerbird
+Cinclosoma castanotum | Chestnut Quail-thrush
+Climacteris rufus | Rufous treecreeper
+Colluricincla harmonica | Grey Shrike-thrush
+Corcorax melanorhamphos | White-winged Chough
+Corvus sp | Corvid sp
+Cracticus sp | Butcherbird sp
+Crocodylus johnstoni | Freshwater Crocodile
+Dacelo sp | Kookaburra sp
+Dasyuridae sp | Brush-tailed Dasyurid sp
+Dasyurus sp | Quoll sp
+Dromaius novaehollandiae | Emu
+Equus sp | Horse and Donkey sp
+Felis catus | Domestic Cat
+Geopelia cuneata | Diamond Dove
+Geopelia humeralis | Bar-shouldered Dove
+Geopelia placida | Peaceful Dove
+Geophaps plumifera | Spinifex Pigeon
+Geophaps smithii blaauwi | Western Partridge Pigeon
+Grallina cyanoleuca | Magpie-lark
+Gymnorhina tibicen | Australian Magpie
+Hydromys chrysogaster | Water Rat
+Hypotaenidia philippensis | Buff-banded Rail
+Hypsiprymnodon moschatus | Musky Rat-kangaroo
+Isoodon sp | Short-nosed Bandicoot sp
+Lagomorpha sp | Hare and Rabbit sp
+Lagorchestes conspicillatus | Spectacled Hare-wallaby
+Lagorchestes hirsutus | Rufous Hare-wallaby
+Lagostrophus fasciatus | Banded Hare-wallaby
+Leggadina forresti | Central Short-tailed Mouse
+Leipoa ocellata | Malleefowl
+Leporillus conditor | Greater Stick-nest Rat
+Lophognathus horneri | Kimberley Ta-ta Lizard
+Macropus sp | Grey Kangaroo sp
+Macrotis lagotis | Greater Bilby
+Manorina sp | Miner Bird sp
+Melomys burtoni | Grassland Melomys
+Mesembriomys gouldii | Black-footed Tree-rat
+Mesembriomys macrurus | Golden-backed Tree-rat
+Mus musculus | House Mouse
+Myrmecobius fasciatus | Numbat
+Notamacropus agilis | Agile Wallaby
+Notamacropus dorsalis | Black-striped Wallaby
+Notamacropus eugenii | Tammar Wallaby
+Notamacropus parryi | Whip-tailed Wallaby
+Notamacropus rufogriseus | Red-necked Wallaby
+Notomys sp | Hopping Mouse
+Ocyphaps lophotes | Crested Pigeon
+Onychogalea fraenata | Bridled Nailtail Wallaby
+Onychogalea unguifera | Northern Nail-tailed Wallaby
+Oreoica gutturalis | Crested Bellbird
+Osphranter antilopinus | Antilopine Wallaroo
+Osphranter robustus | Common Wallaroo
+Osphranter rufus | Red Kangaroo
+Perameles bougainville | Shark Bay Bandicoot
+Perameles sp | Long-nosed Bandicoot sp
+Petaurus sp | Glider sp
+Petrogale brachyotis | Western Short-eared Rock-wallaby
+Petrogale burbidgei | Monjon
+Petrogale concinna | Nabarlek
+Petrogale lateralis | Black-footed Rock Wallaby
+Petrogale mareeba | Mareeba Rock-wallaby
+Petrogale sharmani | Mount Claro Rock-wallaby
+Petrogale wilkinsi | Eastern Short-eared Rock-wallaby
+Petrophassa albipennis | White-quilled Rock-pigeon
+Phaps chalcoptera | Common Bronzewing
+Phascogale calura | Red-tailed Phascogale
+Phascogale tapoatafa | Brush-tailed Phascogale
+Phascolarctos cinereus | Koala
+Pomatostomus sp | Babbler sp
+Potorous tridactylus | Long-nosed Potoroo
+Pseudantechinus sp | Pseudantechinus sp
+Pseudocheirus sp | Ring-tailed Possum sp
+Pseudomys delicatulus | Delicate Mouse
+Psittaciformes sp | Parrot sp
+Rattus fuscipes | Bush Rat
+Rattus rattus | Black Rat
+Rattus sordidus | Canefield Rat
+Rattus tunneyi | Pale Field-rat
+Rattus villosissimus | Long-haired Rat
+Rhinella marina | Cane Toad
+Rhipidura leucophrys | Willie Wagtail
+Scincidae sp | Skink sp
+Sminthopsis sp | Dunnart sp
+Strepera sp | Currawong sp
+Sus scrofa | Pig
+Tachyglossus aculeatus | Short-beaked Echidna
+Thylogale stigmatica | Red-legged Pademelon
+Tiliqua sp | Bluetongue sp
+Trichosurus sp | Brushtail Possum sp
+Uromys caudimaculatus | Giant White-tailed Rat
+Varanus acanthurus | Ridge-tailed Goanna
+Varanus glauerti | Kimberley Rock Goanna
+Varanus glebopalma | Black-palmed Goanna
+Varanus mertensi | Mertens' Water Goanna
+Varanus rosenbergi | Heath Monitor
+Varanus sp | Black-headed and Tree Goanna sp
+Varanus sp | Yellow-spotted and Sand Goanna sp
+Varanus varius | Lace Goanna
+Vombatidae sp | Wombat sp
+Vulpes vulpes | Red Fox
+Wallabia bicolor | Swamp Wallaby
+Wyulda squamicaudata | Scaly-tailed Possum
+Zyzomys argurus | Common Rock-rat
+Zyzomys pedunculatus | Central Rock-rat
+Zyzomys woodwardi | Kimberley Rock-rat
