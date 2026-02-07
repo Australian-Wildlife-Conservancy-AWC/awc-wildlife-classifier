@@ -12,7 +12,7 @@ import logging
 import sys
 from datetime import datetime
 from pathlib import Path
-
+import time
 import yaml
 
 from awc_helpers import DetectAndClassify
@@ -222,6 +222,7 @@ def main():
             output_name.parent.mkdir(parents=True, exist_ok=True)
         output_name = str(output_name)
 
+        start_time = time.time()
         pipeline.predict(
             inp=image_paths,
             clas_bs=batch_size,
@@ -229,7 +230,9 @@ def main():
             output_name=output_name,
             show_progress=True,
         )
-        
+        elapsed = time.time() - start_time
+        logger.info(f"Pipeline completed: {len(image_paths)} images in {elapsed:.2f}s ({len(image_paths)/elapsed:.2f} img/s)")
+
         logger.info("-" * 50)
         logger.info(f"Results saved to: {output_name}.csv and {output_name}.json")
         logger.info("Done!")
