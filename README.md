@@ -70,11 +70,12 @@ All settings are in `config.yaml`:
 | `detector_path` | Path to MegaDetector model | *required* |
 | `classifier_path` | Path to species classifier | *required* |
 | `label_path` | Path to labels text file | `labels.txt` |
-| `output_name` | Name for output files | `results` |
+| `output_name` | Name for output files. Can also be a full path | `results` |
 | `detection_threshold` | Min confidence for detection (0-1) | `0.1` |
 | `classification_threshold` | Min confidence for classification (0-1) | `0.5` |
 | `topn` | Number of top predictions per animal | `1` |
 | `classification_batch_size` | Crops processed at once (GPU memory) | `4` |
+| `save_log` | Whether to save logs to a timestamped file | `false` |
 
 
 ## Troubleshooting
