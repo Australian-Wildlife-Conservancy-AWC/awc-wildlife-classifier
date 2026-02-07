@@ -7,10 +7,10 @@ A simple command-line tool for detecting and classifying animals in camera trap 
 ### 1. Setup
 
 Make sure you have:
-- Python 3.8 or higher installed
+- Python 3.8 or higher installed. I recommend using a Python environment management tool such as [Miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install)
 - The `awc_helpers` package installed. Follow the instruction [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc_inference?tab=readme-ov-file#awc-helpers)
-- MegaDetector model (`.pt` file). You can view and download them [here](https://github.com/agentmorris/MegaDetector/releases/tag/v1000.0) (v1000-redwood is the recommended version)
-- Species classifier model (`.pth` file). You can download it [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier/releases/download/awc-135/awc-135-v1.pth)
+- MegaDetector model (`.pt` file). You can view and download them [here](https://github.com/agentmorris/MegaDetector/releases/tag/v1000.0) (v1000-redwood is one of the latest version)
+- Our AWC species classifier model (`.pth` file). You can download it [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier/releases/download/awc-135/awc-135-v1.pth)
 
 ### 2. Configure
 
@@ -40,7 +40,7 @@ python run_inference.py /home/user/camera_trap_images --config config.yaml
 
 ### 4. Results
 
-The tool creates two output files:
+The tool creates two output files (saved in your image folder, by default):
 - `results.csv` - Spreadsheet-friendly format
 - `results.json` - Timelapse-compatible JSON format
 
