@@ -19,20 +19,17 @@ from awc_helpers import DetectAndClassify
 from awc_helpers.format_utils import get_all_image_paths
 
 
-def setup_logging(log_file: str = None) -> logging.Logger:
+def setup_logging(log_file: str = None, save_log: bool = False) -> logging.Logger:
     """
-    Configure logging to write to both console and file.
+    Configure logging to write to console and optionally to file.
     
     Args:
         log_file: Path to log file. If None, creates timestamped log file.
+        save_log: If True, save logs to file. If False, console output only.
     
     Returns:
         Configured logger instance.
     """
-    if log_file is None:
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        log_file = f"inference_{timestamp}.log"
-    
     logger = logging.getLogger("awc_inference")
     logger.setLevel(logging.INFO)
     
@@ -41,17 +38,23 @@ def setup_logging(log_file: str = None) -> logging.Logger:
         datefmt="%Y-%m-%d %H:%M:%S"
     )
     
+    # Console handler (always enabled)
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(logging.INFO)
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
     
-    file_handler = logging.FileHandler(log_file, encoding="utf-8-sig")
-    file_handler.setLevel(logging.INFO)
-    file_handler.setFormatter(formatter)
-    logger.addHandler(file_handler)
+    # File handler (optional)
+    if save_log:
+        if log_file is None:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            log_file = f"inference_{timestamp}.log"
+        file_handler = logging.FileHandler(log_file, encoding="utf-8-sig")
+        file_handler.setLevel(logging.INFO)
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+        logger.info(f"Logging to: {log_file}")
     
-    logger.info(f"Logging to: {log_file}")
     return logger
 
 
@@ -145,13 +148,19 @@ def main():
     
     args = parser.parse_args()
     
+    # Load configuration first (needed for logging setting)
+    try:
+        config = load_config(args.config)
+    except Exception as e:
+        print(f"ERROR: Failed to load config: {e}")
+        sys.exit(1)
+    
     # Setup logging
-    logger = setup_logging()
+    save_log = config.get("save_log", False)
+    logger = setup_logging(save_log=save_log)
     
     try:
-        # Load configuration
-        logger.info(f"Loading config from: {args.config}")
-        config = load_config(args.config)
+        logger.info(f"Loaded config from: {args.config}")
         
         # Load labels
         logger.info(f"Loading labels from: {config['label_path']}")

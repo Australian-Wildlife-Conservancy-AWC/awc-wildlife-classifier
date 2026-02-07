@@ -40,3 +40,7 @@ topn: 1
 # Higher = faster processing but uses more GPU memory
 # Reduce if you get out-of-memory errors
 classification_batch_size: 4
+
+# Save logs to a timestamped file (true/false)
+# Set to false for console output only
+save_log: false
