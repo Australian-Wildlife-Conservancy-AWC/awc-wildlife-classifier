@@ -4,7 +4,8 @@
 # Adjust paths and thresholds according to your setup.
 
 
-# REQUIRED SETTINGS
+# REQUIRED SETTINGS:
+
 # Path to the MegaDetector model weights file (.pt)
 detector_path: "models/md_v1000.0.0-redwood.pt"
 
@@ -14,9 +15,11 @@ classifier_path: "models/awc-135-v1.pth"
 # Path to the labels file (text file with one species name per line)
 label_path: "labels.txt"
 
-# OPTIONAL SETTINGS - These have sensible defaults
-# Output file name (without extension). Creates both .csv and .json files.
-# Can also be a full path like "results/my_output"
+
+# OPTIONAL SETTINGS:
+
+# Output file name (without extension) to be saved in the image directory. Creates both .csv and .json files.
+# Can also be a full path like "path/to/my_output"
 output_name: "results"
 
 # Detection confidence threshold (0.0 to 1.0)

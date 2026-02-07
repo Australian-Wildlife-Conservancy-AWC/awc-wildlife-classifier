@@ -214,6 +214,14 @@ def main():
         logger.info("Starting detection and classification...")
         logger.info("-" * 50)
         
+
+        output_name = Path(output_name).with_suffix('')
+        if str(output_name.parent) == '.': # just a filenname
+            output_name = image_folder / output_name.name
+        else: # path
+            output_name.parent.mkdir(parents=True, exist_ok=True)
+        output_name = str(output_name)
+
         pipeline.predict(
             inp=image_paths,
             clas_bs=batch_size,
