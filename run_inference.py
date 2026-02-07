@@ -46,7 +46,7 @@ def setup_logging(log_file: str = None) -> logging.Logger:
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
     
-    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    file_handler = logging.FileHandler(log_file, encoding="utf-8-sig")
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
@@ -73,7 +73,7 @@ def load_config(config_path: str) -> dict:
     if not config_file.exists():
         raise FileNotFoundError(f"Config file not found: {config_path}")
     
-    with open(config_file, "r", encoding="utf-8") as f:
+    with open(config_file, "r", encoding="utf-8-sig") as f:
         config = yaml.safe_load(f)
     
     # Check required fields
@@ -104,7 +104,7 @@ def load_labels(label_path: str) -> list:
         raise FileNotFoundError(f"Labels file not found: {label_path}")
     
     labels = []
-    with open(label_file, "r", encoding="utf-8") as f:
+    with open(label_file, "r", encoding="utf-8-sig") as f:
         for line in f:
             line = line.strip()
             # Skip empty lines and comments
