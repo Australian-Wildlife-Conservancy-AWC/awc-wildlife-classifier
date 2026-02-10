@@ -38,16 +38,16 @@ classifier_path: "models/awc-135-v1.pth"
 Open a terminal/command prompt and run:
 
 ```bash
-python run_inference.py <path_to_your_images> --config config.yaml
+python run_inference.py "<path_to_your_images>" --config config.yaml
 ```
 
 **Example:**
 ```bash
 # Windows
-python run_inference.py C:\CameraTrap\Photos --config config.yaml
+python run_inference.py "C:\CameraTrap\Photos" --config config.yaml
 
 # Mac/Linux
-python run_inference.py /home/user/camera_trap_images --config config.yaml
+python run_inference.py "/home/user/camera_trap_images" --config config.yaml
 ```
 
 ### 5. Results
