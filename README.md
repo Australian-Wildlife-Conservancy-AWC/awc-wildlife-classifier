@@ -91,8 +91,7 @@ All settings are in `config.yaml`:
 
 ### "File not found" errors
 - Double-check all paths in `config.yaml`
-- Use full paths (e.g., `C:\Models\detector.pt`) instead of relative paths
-
+- The script can recognize relative paths if the files/images are in the same directory as the python script. But if there's still errors, use full paths (e.g., `C:\Models\detector.pt`) instead
 
 ---
 
@@ -115,6 +114,18 @@ Compatible with [Timelapse](http://saul.cpsc.ucalgary.ca/timelapse/) image viewe
 
 ---
 
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+---
+
 ## Need Help?
 
 Check the log file (created in the same folder as the script) for detailed error messages. You can also submit an issue in this repository.
+
+---
+
+## Commercial Enquiries
+
+For any commercial enquiries, contact us at ai.info@australianwildlife.org
