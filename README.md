@@ -12,7 +12,19 @@ Make sure you have:
 - MegaDetector model (`.pt` file). You can view and download them [here](https://github.com/agentmorris/MegaDetector/releases/tag/v1000.0) (v1000-redwood is one of the latest version)
 - Our AWC species classifier model (`.pth` file). You can download it [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier/releases/download/awc-135/awc-135-v1.pth)
 
-### 2. Configure
+### 2. Clone this repository
+
+You can clone this repository by downloading it as a ZIP file (click on the green "<> Code" dropdown and select "Download ZIP").
+
+Alternatively, you can run this command in your terminal:
+
+```bash
+git clone https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier.git
+```
+
+Note that you'll need to install [Git](https://git-scm.com/install/) first.
+
+### 3. Configure
 
 Edit `config.yaml` to set your model paths:
 
@@ -21,7 +33,7 @@ detector_path: "models/<megadetector_weight>.pt"
 classifier_path: "models/awc-135-v1.pth"
 ```
 
-### 3. Run
+### 4. Run
 
 Open a terminal/command prompt and run:
 
@@ -38,7 +50,7 @@ python run_inference.py C:\CameraTrap\Photos --config config.yaml
 python run_inference.py /home/user/camera_trap_images --config config.yaml
 ```
 
-### 4. Results
+### 5. Results
 
 The tool creates two output files (saved in your image folder, by default):
 - `results.csv` - Spreadsheet-friendly format
