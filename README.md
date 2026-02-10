@@ -35,7 +35,9 @@ classifier_path: "models/awc-135-v1.pth"
 
 ### 4. Run
 
-Open a terminal/command prompt and run:
+Open a terminal/command prompt, change your directory to `awc-wildlife-classifier` (this is the repository you have just downloaded/cloned from step 2)
+
+Then run:
 
 ```bash
 python run_inference.py "<path_to_your_images>" --config config.yaml
