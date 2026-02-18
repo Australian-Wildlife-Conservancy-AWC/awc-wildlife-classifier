@@ -1,0 +1,5 @@
+# Timelapse Template File
+
+A template file (.tdb) is required to load new images into Timelapse. When new images are loaded in, Timelapse will pull out date and time metadata for each image and put it into a data table. The template file is what creates the structure to build the data table, with each editable field equalling a column in the data table. Each field can be added or removed from template file, allowing for full customisation of data processing. An example template file has been provided here to get you started. Save this file alongside the folder of images that you wish to load into Timelapse. When images are first loaded in, a Timelapse database file (.ddb) and a “Backups” folder will be created and saved alongside the template file. 
+
+For more information, documentation and tutorial regarding Timelapse and Timelapse template, visit the official website at https://timelapse.ucalgary.ca/guides/
