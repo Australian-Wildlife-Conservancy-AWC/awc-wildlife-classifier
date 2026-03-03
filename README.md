@@ -1,6 +1,14 @@
-# Wildlife Detection & Classification Tool
+# Australian Wildlife Conservancy's Wildlife Detection & Classification Tool
 
-A simple command-line tool for detecting and classifying animals in camera trap images.
+A set of tools for detecting and classifying animals in camera trap images.
+
+## User Guide
+
+Here is the [Comprehensive User Guide](./AWC135%20User%20Guide.pdf), including information on how to use this model effectively, its technical details and limitations, training data, a step-by-step guide (using Timelapse + AddaxAI), and FAQs.
+
+A Timelapse template is provided [here](./timelapse_templates/) to get you started with Timelapse.
+
+To run this model using Python, refer to the steps below.
 
 ## Quick Start
 
