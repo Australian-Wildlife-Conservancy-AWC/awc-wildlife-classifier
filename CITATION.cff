@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 title: "Australian Wildlife Classifier 135: Wildlife Detection and Classification Tool for Camera Trap Images"
 type: software
 version: awc-135
-date-released: 2026-01-01
+date-released: 2026-02-10
 url: "https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier"
 repository-code: "https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier"
 license: CC-BY-NC-SA-4.0
