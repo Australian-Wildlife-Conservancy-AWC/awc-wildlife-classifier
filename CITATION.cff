@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Australian Wildlife Classifier 135: Wildlife Detection and Classification Tool for Camera Trap Images"
+type: software
+version: awc-135
+date-released: 2026-01-01
+url: "https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier"
+repository-code: "https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier"
+license: CC-BY-NC-SA-4.0
+authors:
+  - family-names: Tran
+    given-names: Quan
+    affiliation: Australian Wildlife Conservancy
+  - family-names: Hornstra
+    given-names: Grace
+    affiliation: Australian Wildlife Conservancy
+  - family-names: Kerr
+    given-names: Damien
+    affiliation: Australian Wildlife Conservancy
+  - family-names: Sitters
+    given-names: Holly
+    affiliation: Australian Wildlife Conservancy
+    orcid: "https://orcid.org/0000-0002-6313-6779"
+keywords:
+  - wildlife
+  - camera trap
+  - species classification
+  - animal detection
+  - conservation
+  - machine learning
+  - deep learning

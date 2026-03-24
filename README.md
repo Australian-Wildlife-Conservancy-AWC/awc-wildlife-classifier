@@ -142,6 +142,27 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 ---
 
+## Citation
+
+If you use this software in your research, please cite it as:
+
+**APA:**
+> Tran, Q., Hornstra, G., Kerr, D., & Sitters, H. (2026). *Australian Wildlife Classifier 135: Wildlife Detection and Classification Tool for Camera Trap Images* (Version awc-135) [Computer software]. Australian Wildlife Conservancy. https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier
+
+**BibTeX:**
+```bibtex
+@software{awc_wildlife_classifier_2026,
+  author       = {Tran, Quan and Hornstra, Grace and Kerr, Damien and Sitters, Holly},
+  title        = {{Australian Wildlife Classifier 135: Wildlife Detection and Classification Tool for Camera Trap Images}},
+  year         = {2026},
+  version      = {awc-135},
+  publisher    = {Australian Wildlife Conservancy},
+  url          = {https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier}
+}
+```
+
+---
+
 ## Need Help?
 
 Check the log file (created in the same folder as the script) for detailed error messages. You can also submit an issue in this repository.
