@@ -16,7 +16,12 @@ To run this model using Python, refer to the steps below.
 
 Make sure you have:
 - Python 3.8 or higher installed. I recommend using a Python environment management tool such as [Miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install)
-- The `awc_helpers` package installed. Follow the instruction [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc_inference?tab=readme-ov-file#awc-helpers)
+- The `awc_helpers` package version 0.1.5 (To read more about this library, go [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc_inference)). Install via pip:
+```bash
+pip install awc-helpers==0.1.5
+```
+(To read more about this library, go [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc_inference))
+
 - MegaDetector model (`.pt` file). You can view and download them [here](https://github.com/agentmorris/MegaDetector/releases/tag/v1000.0) (v1000-redwood is one of the latest version)
 - Our AWC species classifier model (`.pth` file). You can download it [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier/releases/download/awc-135/awc-135-v1.pth)
 
