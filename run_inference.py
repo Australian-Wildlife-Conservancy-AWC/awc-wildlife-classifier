@@ -238,6 +238,7 @@ def main():
             topn=topn,
             output_name=output_name,
             show_progress=True,
+            filter_category=None
         )
         elapsed = time.time() - start_time
         logger.info(f"Pipeline completed: {len(image_paths)} images in {elapsed:.2f}s ({len(image_paths)/elapsed:.2f} img/s)")

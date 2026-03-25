@@ -16,9 +16,9 @@ To run this model using Python, refer to the steps below.
 
 Make sure you have:
 - Python 3.8 or higher installed. I recommend using a Python environment management tool such as [Miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install)
-- The `awc_helpers` package version 0.1.5 (To read more about this library, go [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc_inference)). Install via pip:
+- The `awc_helpers` package (To read more about this library, go [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc_inference)). Install via pip:
 ```bash
-pip install awc-helpers==0.1.5
+pip install awc-helpers
 ```
 (To read more about this library, go [here](https://github.com/Australian-Wildlife-Conservancy-AWC/awc_inference))
 
