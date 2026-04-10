@@ -226,7 +226,8 @@ def main():
 
         output_name = Path(output_name).with_suffix('')
         if str(output_name.parent) == '.': # just a filenname
-            output_name = image_folder / output_name.name
+            # save in the same folder as the images, not inside the image folder
+            output_name = Path(image_folder).parent / output_name.name
         else: # path
             output_name.parent.mkdir(parents=True, exist_ok=True)
         output_name = str(output_name)
